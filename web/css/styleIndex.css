@@ -1,0 +1,220 @@
+/* 
+    Document   : styleIndex
+    Created on : 5/06/2014, 12:11:58 PM
+    Author     : Hector Miguel
+    Description:
+        Hoja de estilo (CSS) creada para el diseño de estilos.
+*/
+
+body{
+    margin: 0 10%;
+    padding: 8px;
+    background: url(../images/index/bg.jpg) repeat;
+    font-family: "Trebuchet MS",Verdana, Arial;
+    font-size: 10px;
+    color: #000;
+    margin: 0px auto auto auto;
+}
+
+#main{
+    width: 77%;
+    margin: 0px auto;
+}
+
+#Header{
+    height: 115px;
+    background-image: url(../images/index/header.jpg);
+}
+#HeaderAdd{
+    height: 115px;
+    width: 101.5%;
+    background-image: url(../images/index/header.jpg);
+}
+
+#tituloText{
+    font-family: Rockwell, Georgia, "Times New Roman", Times, serif;
+    font-size: 47px;
+    color: #0D4383;
+    text-shadow: #000000 -1px 0, #000000 0 -1px, #ffffff 0 1px, #000000 -1px -2px 2px;
+    padding: 35px 0px 0px 47px;
+}
+
+#baseHeader{
+    width: 100%;
+    height: 16px;
+    background-image: url(../images/index/img1.png);
+}
+#baseHeaderAdd{
+    width: 101.5%;
+    height: 16px;
+    background-image: url(../images/index/img1.png);
+}
+
+#Body{
+    background-image:url(../images/index/img2.png);
+    background-repeat:repeat-y;
+    padding-top:10px;
+}
+          
+#bodyMain{
+    padding-left:60px;
+    padding-right:60px;
+    width:850px;
+    margin:0px auto;
+    padding-bottom:15px;
+    padding-top:0px;
+}
+
+#tableContainer{
+    width: 850px;
+    margin:4px 0 0 0;    
+    background:none;
+    text-align: center;
+}
+#tableContainerAlumno{
+    width: 800px;
+    border:1px solid #cef2e0; 
+    background:#f5faff;
+    border-radius: 4px;
+}
+.td1{
+    width:100%;
+    border:1px solid #C7D0F8;
+    background:#F2F5FD;
+    vertical-align:top;
+    color:#000;
+    -moz-border-radius:4px;
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+#tableSup{
+    width:100%; 
+    background:#F2F5FD;
+    color:#000;
+    padding:2px;
+}
+.divTableSup{
+    margin:0;
+    background:#E6F2EF;
+    font-size: 13px;
+    font-weight:bold; 
+    text-shadow: #cef2e0 -1px 0, #cef2e0 0 -1px, #ffffff 0 2px, #A4A4A4 -1px -2px 3px;
+    border:1px solid #cef2e0;
+    text-align:left; 
+    color:#000;
+    padding:0.2em 0.4em;
+    -moz-border-radius:6px;
+    -webkit-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+}
+.pTableSup{
+    font-size: 11px;
+    text-align: left;
+    padding: 0 0 0 0;
+}
+.tablaCont{
+    width:50%; 
+    border:1px solid #cef2e0; 
+    background:#f5faff;
+    border-radius: 4px;
+}
+.campoObligatorio {color: #9E1101; font-size: 12px;}
+
+.labels{
+    background:#94B3C5;
+    color:#FFFFFF;
+    border-color:#4F7891;
+    font-weight: bold;
+    font-size: 10px;
+}
+.celdas{
+    background:#E6F2EF;
+    color:#514721;
+    border-color:#999999; 
+    border:1px solid #ddd;
+    text-align: center;
+}
+.fondoTexField{
+    text-align: center;
+    width: auto;
+    background:#f4f4f4;
+    color:#514721;
+    border-color:#999999; 
+    border:1px solid #ddd;
+}
+
+/* Estilo botón blanco */
+.button,.button:visited{color:#444}
+.button{
+	border:1px solid #e9e9e9;
+	border-radius:7px;
+	-moz-box-shadow:0 1px 3px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.3);
+	box-shadow:0 1px 3px rgba(0,0,0,0.3);
+	display:inline-block;
+	font: bold 10px "helvetica neue", helvetica, arial, sans-serif;
+	padding:1px 0 2px 0;
+	text-align:center;
+        width: 100px;
+	-moz-text-shadow:1px 1px 0 #fff;
+	-webkit-text-shadow:1px 1px 0 #fff;
+	text-shadow:1px 1px 0 #fff;
+	white-space:nowrap;
+	background:#efefef;
+	background:-moz-linear-gradient(top,#f5f5f5 0,#efefef 50%,#e5e5e5 51%,#dfdfdf 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#f5f5f5),color-stop(50%,#efefef),color-stop(51%,#e5e5e5),color-stop(100%,#dfdfdf));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5',endColorstr='#dfdfdf',GradientType=0);*border-color:#dadada;*padding-bottom:5px
+}
+
+.button:hover{
+	border-color:#466899;
+	-moz-box-shadow:0 1px 4px rgba(0,0,0,0.5);
+	-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.5);
+	box-shadow:0 1px 4px rgba(0,0,0,0.5);
+	color:#fff;
+	text-decoration:none;
+	-moz-text-shadow:1px 1px 0 #222;
+	-webkit-text-shadow:1px 1px 0 #222;
+	text-shadow:1px 1px 0 #222;
+	background:#6396d8;
+	background:-moz-linear-gradient(top,#6396d8 0,#5a83bc 50%,#547ab7 51%,#466899 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#6396d8),color-stop(50%,#5a83bc),color-stop(51%,#547ab7),color-stop(100%,#466899));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6396D8',endColorstr='#466899',GradientType=0);
+        cursor: pointer;
+}
+
+/* Estilo botón rojo'*/
+.rojo{
+    color: #fff;
+    border: 1px solid #951100;
+    font: bold 10px "helvetica neue", helvetica, arial, sans-serif;
+    padding: 1px 0 2px 0;
+    text-align: center;
+    background-color: #ee432e;
+    box-shadow: inset 0px 0px 0px 1px #FF7364, 0 1px 3px #333333;
+    background-image: -moz-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+    border-radius: 7px;
+    width: 100px;
+}
+
+.rojo:hover{
+    background-color: #f37873;
+    background-image: -moz-linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+    cursor: pointer;
+}
+
+.rojo:active{
+    background-color: #d43c28;
+    background-image: -moz-linear-gradient(top, #d43c28 0%, #ad3424 50%, #9c1500 50%, #700d00 100%);
+    box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4);
+}
+
+#footer{
+    width:977px;
+    height:51px;
+    background-image:url(../images/index/img3.png);
+}

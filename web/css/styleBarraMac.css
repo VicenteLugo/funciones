@@ -1,0 +1,72 @@
+/* 
+    Document   : styleBarraMac
+    Created on : 5/06/2014, 12:11:58 PM
+    Author     : Hector Miguel
+    Description:
+        estilo (css3) para titulo y barra tipo mac.
+*/
+
+/*codificación para el estilo de la barra mac*/
+img { border: none; }
+
+.dock {
+    position: relative; 
+    height: 50px; 
+    text-align: center;
+}
+.dock-container {
+    position: absolute;
+    height: 50px;
+    padding-left: 20px;
+}
+a.dock-item {
+    display: block;
+    width: 40px;
+    color: #000;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+}
+.dock-item img {
+    border: none; 
+    margin: 5px 10px 0px; 
+    width: 100%; 
+}
+.dock-item span {
+    display: none; 
+    padding-left: 20px;
+}
+
+/* dock2 - bottom */
+#dock2 {
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}
+.dock-container2 {
+    position: absolute;
+    height: 50px;
+    background: url(../img/dock-bg.gif);
+    padding-left: 20px;
+}
+a.dock-item2 {
+    display: block; 
+    font: bold 12px Arial, Helvetica, sans-serif;
+    width: 40px; 
+    color: #000; 
+    bottom: 0px; 
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+}
+.dock-item2 span {
+    display: none;
+    padding-left: 20px;
+}
+.dock-item2 img {
+    border: none; 
+    margin: 5px 10px 0px; 
+    width: 100%; 
+}
